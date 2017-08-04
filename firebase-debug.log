@@ -1,0 +1,117 @@
+[debug] [2017-08-04T14:49:03.559Z] ----------------------------------------------------------------------
+[debug] [2017-08-04T14:49:03.559Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\MacOS\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve --only functions,hosting
+[debug] [2017-08-04T14:49:03.563Z] CLI Version:   3.9.2
+[debug] [2017-08-04T14:49:03.563Z] Platform:      win32
+[debug] [2017-08-04T14:49:03.563Z] Node Version:  v6.11.2
+[debug] [2017-08-04T14:49:03.563Z] Time:          Fri Aug 04 2017 21:49:03 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-08-04T14:49:03.563Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-08-04T14:49:03.579Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-08-04T14:49:03.579Z] > authorizing via signed-in user
+[debug] [2017-08-04T14:49:03.579Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/apifirebase-1fe6e  
+ Fri Aug 04 2017 21:49:03 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-08-04T14:49:05.577Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-04T14:49:05.577Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/apifirebase-1fe6e/tokens  
+ Fri Aug 04 2017 21:49:05 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-08-04T14:49:06.496Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\MacOS\Desktop\firebase_api'...
+[info] 
+[info] i  functions: Preparing to emulate HTTPS functions. Support for other event types coming soon.
+[debug] [2017-08-04T14:49:09.363Z] >>> HTTP REQUEST GET https://appengine.googleapis.com/v1/apps/apifirebase-1fe6e  
+ Fri Aug 04 2017 21:49:09 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-08-04T14:49:09.367Z] >>> HTTP REQUEST GET https://apikeys.googleapis.com/v1/projects/apifirebase-1fe6e/apiKeys  
+ Fri Aug 04 2017 21:49:09 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-08-04T14:49:09.367Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/apifirebase-1fe6e  
+ Fri Aug 04 2017 21:49:09 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-08-04T14:49:10.559Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-04T14:49:10.559Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/594432065735/clients/_:getWebAppConfig  
+ Fri Aug 04 2017 21:49:10 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-08-04T14:49:10.695Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-04T14:49:10.695Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-04T14:49:12.433Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[info] +  functions: User: http://localhost:5001/apifirebase-1fe6e/us-central1/User
+[debug] [2017-08-04T14:52:19.950Z] ----------------------------------------------------------------------
+[debug] [2017-08-04T14:52:19.954Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\MacOS\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve --only functions,hosting
+[debug] [2017-08-04T14:52:19.954Z] CLI Version:   3.9.2
+[debug] [2017-08-04T14:52:19.954Z] Platform:      win32
+[debug] [2017-08-04T14:52:19.954Z] Node Version:  v6.11.2
+[debug] [2017-08-04T14:52:19.954Z] Time:          Fri Aug 04 2017 21:52:19 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-08-04T14:52:19.954Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-08-04T14:52:19.974Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-08-04T14:52:19.974Z] > authorizing via signed-in user
+[debug] [2017-08-04T14:52:19.974Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-08-04T14:52:19.974Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/ojWgT3lYYTXYudmQAxtmpad98OGMZ7i4apXG1gZ1URo',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Fri Aug 04 2017 21:52:19 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-08-04T14:52:20.435Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-04T14:52:20.451Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/apifirebase-1fe6e  
+ Fri Aug 04 2017 21:52:20 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-08-04T14:52:21.693Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-04T14:52:21.693Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/apifirebase-1fe6e/tokens  
+ Fri Aug 04 2017 21:52:21 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-08-04T14:52:24.377Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\MacOS\Desktop\firebase_api'...
+[info] 
+[info] i  functions: Preparing to emulate HTTPS functions. Support for other event types coming soon.
+[debug] [2017-08-04T14:52:25.043Z] >>> HTTP REQUEST GET https://appengine.googleapis.com/v1/apps/apifirebase-1fe6e  
+ Fri Aug 04 2017 21:52:25 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-08-04T14:52:25.043Z] >>> HTTP REQUEST GET https://apikeys.googleapis.com/v1/projects/apifirebase-1fe6e/apiKeys  
+ Fri Aug 04 2017 21:52:25 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-08-04T14:52:25.047Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/apifirebase-1fe6e  
+ Fri Aug 04 2017 21:52:25 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-08-04T14:52:26.214Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-04T14:52:26.214Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/594432065735/clients/_:getWebAppConfig  
+ Fri Aug 04 2017 21:52:26 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-08-04T14:52:26.322Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-04T14:52:26.419Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-04T14:52:27.927Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[info] +  functions: User: http://localhost:5001/apifirebase-1fe6e/us-central1/User
+[debug] [2017-08-04T15:01:51.425Z] ----------------------------------------------------------------------
+[debug] [2017-08-04T15:01:51.429Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\MacOS\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve --only functions,hosting
+[debug] [2017-08-04T15:01:51.433Z] CLI Version:   3.9.2
+[debug] [2017-08-04T15:01:51.433Z] Platform:      win32
+[debug] [2017-08-04T15:01:51.433Z] Node Version:  v6.11.2
+[debug] [2017-08-04T15:01:51.433Z] Time:          Fri Aug 04 2017 22:01:51 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-08-04T15:01:51.433Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-08-04T15:01:51.449Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-08-04T15:01:51.449Z] > authorizing via signed-in user
+[debug] [2017-08-04T15:01:51.449Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/apifirebase-1fe6e  
+ Fri Aug 04 2017 22:01:51 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-08-04T15:01:52.761Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-04T15:01:52.765Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/apifirebase-1fe6e/tokens  
+ Fri Aug 04 2017 22:01:52 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-08-04T15:01:57.369Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\MacOS\Desktop\firebase_api'...
+[info] 
+[info] i  functions: Preparing to emulate HTTPS functions. Support for other event types coming soon.
+[debug] [2017-08-04T15:01:58.093Z] >>> HTTP REQUEST GET https://appengine.googleapis.com/v1/apps/apifirebase-1fe6e  
+ Fri Aug 04 2017 22:01:58 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-08-04T15:01:58.093Z] >>> HTTP REQUEST GET https://apikeys.googleapis.com/v1/projects/apifirebase-1fe6e/apiKeys  
+ Fri Aug 04 2017 22:01:58 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-08-04T15:01:58.093Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/apifirebase-1fe6e  
+ Fri Aug 04 2017 22:01:58 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-08-04T15:01:59.420Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-04T15:01:59.420Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/594432065735/clients/_:getWebAppConfig  
+ Fri Aug 04 2017 22:01:59 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-08-04T15:01:59.528Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-04T15:02:03.222Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2017-08-04T15:02:09.099Z] <<< HTTP RESPONSE 200
+[info] +  functions: User: http://localhost:5001/apifirebase-1fe6e/us-central1/User
+[info] Shutting down...
